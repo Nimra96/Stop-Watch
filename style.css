@@ -1,0 +1,64 @@
+body{
+    background: linear-gradient(to left, #1B1C42, #45456B); 
+        width: 100%;
+         /* background-image: url('https://avante.biz/wp-content/uploads/PS3-Backgrounds-Wallpapers/PS3-Backgrounds-Wallpapers-038.jpg'); */
+    }
+    
+    
+    #stopwatch{
+        font-size: 45px;
+        /* display: inline-block; */
+        width: 60px;
+        height: 100px;
+        text-align: center;
+        margin-left: 120px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 100px;
+    }
+    
+    .heading{
+        font-size: 15px;
+        text-align: center;
+        font-weight: bold;
+        color: #ffffff;
+        text-shadow: 2px 2px 8px #F186C0;
+    }
+    
+    .box{
+        width: 400px;
+        height: 450px;
+        position: relative;
+        background: #ffffff;
+        margin: 6% auto;
+        padding: 5px;
+        box-shadow: 5px 10px 18px #12333A;
+        border-radius: 30px;
+        background: linear-gradient(to right, #3E3E63,  #45456B);
+    }
+    
+    #btn{
+        margin-left: 40px;
+    }
+    
+    #start, #stop, #reset{
+        background: linear-gradient(to right, #dd8cb9,#DBB2FF);
+        width: 30%;
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+        border-radius: 20px ;
+        cursor: pointer;
+        border: 0;
+        outline: none;
+    }
+    
+    #start:hover, #stop:hover, #reset:hover{
+        background: linear-gradient(to right, #F5B6DA, #ffad06);
+        transition: .5s;
+        border: none;
+        outline: none;
+    
+    }
+    
+
+    
